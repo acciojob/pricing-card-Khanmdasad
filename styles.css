@@ -1,14 +1,29 @@
 /*  your css code here. If applicable */
 wrapper{
 	background-color: white;
+	
 }
 
 .container{
-	width: 350px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	width: 320px;
 	padding: 20px;
 	background-color: lightgray;
 	box-shadow: 1px 1px 1px 1px;
 	border-radius: 10px
+}
+
+h1{
+	margin: auto;
+}
+
+p{
+	margin: auto;
+	margin-bottom: 10px;
+	width: 200px
 }
 
 img{
@@ -17,8 +32,10 @@ img{
 }
 
 button{
+	margin: auto;
+	width: 100px;
 	padding: 10px;
 	background-color: lightpink;
 	color: white;
-	border-radius: 10px
+	border-radius: 10px;
 }
